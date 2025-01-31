@@ -1,5 +1,7 @@
 const handleGetAllUsers = async (req, res) => {
     try {
+
+        res.status(200).send("Get all users successfully");
         
         return res.status(200).json({
             success: true,
